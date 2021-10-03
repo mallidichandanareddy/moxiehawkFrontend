@@ -1,0 +1,129 @@
+.login__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: steelblue;
+    padding:  0 20px;
+    flex-direction: column;
+}
+
+.form__container{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    width: 350px;
+    max-width: 100%;
+    margin: 20px auto
+}
+
+
+.form__container h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+
+}
+.form__control{
+    margin: 50px 0;
+    color: #fff;
+    position: relative;
+}
+
+.form__control label{
+position: absolute;
+font-size: 18px;
+top: -15px;
+transition: all .3s ease;
+
+}
+.form__control input{
+border: 0;
+border-bottom: 1px solid #fff;
+width: 100%;
+background-color: transparent;
+color: #fff;
+padding: 10px 0;
+font-size: 15px;
+display: block;
+
+}
+.form__control input:focus + label{
+ transform: translateY(-10px);
+}
+.form__control input:focus {
+outline-style: none;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: lightblue;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+input:-internal-autofill-selected{
+    background-color: transparent;
+
+}
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+
+.text{
+margin-top: 20px;
+color: #fff;
+}
+
+.text a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.error{
+    margin-top: 5px;
+    color: red;
+    font-weight: 500;
+    font-family: inherit;
+    display: block;
+}
+
+.user_notFound{
+    color: #fff;
+}
+
+.header__container{
+    height: 80px;
+    background-color: steelblue;
+    padding:  0 20px;
+}
+
+.header__container ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    list-style: none;
+}
+
+.header_item{
+    color: #fff;
+    cursor: pointer;
+    font-size:20px;
+}
+
+.calendar__container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
